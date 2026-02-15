@@ -58,6 +58,20 @@ This produces a precise 1-second timing pulse.
 
 ---
 
+### Debug Clock Configuration
+
+The functional clock for the digital clock logic operates at 1 Hz, generated from the 100 MHz system clock using a clock divider.
+
+However, the Integrated Logic Analyzer (ILA) was clocked using the primary 100 MHz system clock instead of the 1 Hz clock. This ensures:
+
+- Stable debug core detection
+
+- Reliable JTAG communication
+
+- Proper hardware enumeration
+
+The internal signals (seconds, minutes, hours) were monitored while being driven by the 1 Hz clock domain.
+
 ##  Synchronous Design Principles
 
 - All counters are positive-edge triggered.
