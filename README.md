@@ -2,6 +2,8 @@
 
 ##  Introduction
 
+ Lab workshop on FPGA Architecture and Programming using Verilog HDL by NIELIT Calicut in association with ARM and NPTEL.
+
 This project implements a fully synthesizable **24-hour digital clock** using Verilog HDL and deploys it on a **Xilinx Artix-7 FPGA (xc7a100t)**.
 
 The design follows a modular synchronous architecture consisting of seconds, minutes, and hours counters. The system converts the 100 MHz onboard clock into a 1 Hz timing signal and maintains time in 24-hour format (00:00:00 → 23:59:59).
