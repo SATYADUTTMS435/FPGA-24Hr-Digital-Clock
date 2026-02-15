@@ -2,7 +2,7 @@
 
 ##  Introduction
 
- Lab workshop on FPGA Architecture and Programming using Verilog HDL by NIELIT Calicut in association with ARM and NPTEL.
+Project done under the Course **Lab workshop on FPGA Architecture and Programming using Verilog HDL by NIELIT Calicut in association with ARM and NPTEL.**
 
 This project implements a fully synthesizable **24-hour digital clock** using Verilog HDL and deploys it on a **Xilinx Artix-7 FPGA (xc7a100t)**.
 
