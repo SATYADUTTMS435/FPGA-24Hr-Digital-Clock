@@ -30,20 +30,6 @@ The complete FPGA design flow was performed using Xilinx Vivado, including synth
 
 ---
 
-##  Repository Structure
-
-FPGA-24Hr-Digital-Clock/
-│
-├── src/ → Verilog source files
-├── constraints/ → XDC pin configuration
-├── reports/ → Timing & utilization reports
-├── images/ → Floorplan & ILA screenshots
-├── DesignSpecs.md → Detailed design documentation
-└── README.md
-
-
----
-
 ##  Hardware Verification
 
 The internal signals (seconds, minutes, hours) were monitored using ILA to verify:
@@ -62,9 +48,6 @@ For complete design theory, specifications, and implementation details, refer to
 
 ---
 
-## Author
 
-Satya Dutt M S  
-Electronics & Communication Engineering  
 
 
