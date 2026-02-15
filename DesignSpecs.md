@@ -103,17 +103,6 @@ This ensures predictable FPGA timing behavior.
 
 ---
 
-##  Resource Utilization
-
-- Slice LUTs: 18
-- Slice Registers: 46
-- DSP Blocks: 0
-- BRAM: 0
-
-The design is lightweight and resource-efficient.
-
----
-
 ##  Timing Analysis
 
 - Worst Negative Slack (WNS): Positive
